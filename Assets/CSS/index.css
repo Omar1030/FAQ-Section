@@ -1,0 +1,63 @@
+/* ===== Start Variables ===== */
+:root {
+  /* ? Font */
+  --roboto-font: "Roboto", sans-serif;
+  --arial-font: Arial, Helvetica, sans-serif;
+
+  /* ? Colors */
+  --blue-color: #2980b9;
+  --dark-gray-color: #333333;
+  --white-color: #ffffff;
+
+  /* ? Font Weight */
+  --normal-weight: 16px;
+  --bold-weight: 18px;
+}
+/* ===== End Variables ===== */
+
+/* ===== Start Global Style ===== */
+* {
+  user-select: none;
+}
+
+.container {
+  padding-block: 100px;
+}
+
+.active {
+  color: var(--blue-color);
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+/* ===== End Global Style ===== */
+
+/* ===== Start FAQ Section ===== */
+#faq-head {
+  font-family: var(--roboto-font);
+  color: var(--dark-gray-color);
+}
+
+#faq-info {
+  font-size: 13px;
+}
+
+.faq-list-item {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+
+.faq-list-item-qh {
+  font-family: var(--roboto-font);
+  font-size: var(--bold-weight);
+}
+
+.faq-list-item-a {
+  font-family: var(--arial-font);
+  font-size: var(--normal-weight);
+  display: none;
+}
+
+/* ===== End FAQ Section ===== */
