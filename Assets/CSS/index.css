@@ -51,7 +51,13 @@
 
 .faq-list-item-qh {
   font-family: var(--roboto-font);
-  font-size: var(--bold-weight);
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .faq-list-item-qh {
+    font-size: var(--bold-weight);
+  }
 }
 
 .faq-list-item-a {

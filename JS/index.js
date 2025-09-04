@@ -3,21 +3,19 @@ let faq_list = document.getElementById("faq-list");
 
 // ! Variables
 const questions = [
+  "What is HelpMe, and how does it work?",
   "How can I reset my password?", 
   "How do I contact support?", 
-  "Is my personal information safe on HelpMe?", 
+  "How quickly can I expect a response?", 
   "Can I use HelpMe on mobile devices?", 
-  "Do I need to pay to use HelpMe?", 
-  "What should I do if I see unusual activity on my account?", 
-  "Can I change or delete my account information?"];
+  "Do I need to pay to use HelpMe?"];
 const answers = [
+  "HelpMe is an online support platform that connects you with resources, guides, and real people who can assist you with common problems. Simply create an account, submit your issue, and we’ll guide you to the right solution.",
   "You can reset your password by clicking “Forgot Password” on the login page. Follow the instructions in the email we send you to create a new password.",
   "Click the “Contact Us” link in the footer, or go to the Help Center and submit a request. Our support team is available 24/7.",
-  "Yes. We use end-to-end encryption and follow strict security standards to keep your data safe.",
+  "Most inquiries are answered within 24 hours. Premium users can receive live chat support instantly.",
   "Absolutely! HelpMe works on both Android and iOS, and you can also use it directly in your mobile browser.",
   "HelpMe is free for basic use. Premium features are available with a subscription, which you can upgrade to anytime.",
-  "Immediately reset your password and contact our support team. We’ll help secure your account and investigate the issue.",
-  "Yes. You can edit your profile details from the Account Settings page. If you want to delete your account, contact our support team and we’ll guide you through the process.",
 ];
 
 // ! Function : Render Questions
